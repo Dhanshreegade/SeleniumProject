@@ -1,0 +1,33 @@
+package _1_Abstraction._2_By_AbstractionClass;
+
+public class _3_TestPage {
+
+	public static void main(String[] args) { 
+		
+		//_1_page abs = new _1_page();
+		
+	System.out.println("=============");
+		
+	_2_LoginPage lp = new _2_LoginPage();
+	lp.title();
+	lp.url();	
+	lp.footerLinks();
+	lp.doLogin();
+	lp.logo();	
+	lp.privacypolicy();
+		
+	System.out.println("=============");
+		
+//	_1_Page	p = new _2_LoginPage();
+//		
+//	p.title();
+//	p.logo();
+//	p.privacypolicy();
+	//p.doLogin();
+	
+	System.out.println("=============");
+	
+	}
+	
+
+}

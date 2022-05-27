@@ -1,0 +1,45 @@
+package _1_Abstraction._2_By_AbstractionClass;
+
+public class _2_LoginPage  extends _1_Page{
+
+	public _2_LoginPage() {
+		System.out.println("Login page const..");
+	}
+
+	
+	
+    @override
+    public void title() {
+    	System.out.println("login page title");
+    }
+    
+    @override
+    public void url() {
+    	System.out.println("http://google.com");
+    }
+	
+    @override
+    public void footerLinks() {
+    	System.out.println("footerlinks..");
+    }
+	
+    @override
+    public void logo() {
+    	System.out.println("LoginPage -- logo");
+    }
+   
+   //  @override
+  //  public void privacypolicy() {
+ //   	System.out.println("change in some privacy policy for login page...");
+ //   }
+	
+	//special method of login page class
+	
+	public void doLogin() {
+		System.out.println("login to app..");
+	}
+	
+	
+	
+	
+}
